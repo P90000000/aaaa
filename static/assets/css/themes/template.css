@@ -1,19 +1,21 @@
 :root {
    /* Background Variables */
-   --background-color: #ddd; /* Main Background Color */
-   --background-input: #cccccc; /* Input Field Background Color */
-   --background-column: #cacaca; /* Background for Apps Container */
-   --background-settings: #d5d5d5; /* Settings Card Background */
-   --background-buttons: #ccc; /* Button Background Color */
-   --tab-active-background: #bbb; /* Accent Color for Tabs */
-   --tab-inactive-background: ; /* Background Color for Tabs Not In Use */
-   --slider-active-background: #b3b0af; /* Active Slider Background Color */
-   --slider-inactive-background: #333; /* Slider Background Color */
+   --background-color: #0a0a0f;        /* Main Background: almost black */
+   --background-input: #1a1a2e;        /* Input Field Background: dark navy */
+   --background-column: #11111a;       /* Background for Apps Container */
+   --background-settings: #1c1c2b;     /* Settings Card Background */
+   --background-buttons: #162447;      /* Button Background: deep blue */
+   --tab-active-background: #1f4068;   /* Active Tab Accent: medium-dark blue */
+   --tab-inactive-background: #0f0f17; /* Inactive Tab Background: near black */
+   --slider-active-background: #1b3b66; /* Active Slider: navy blue */
+   --slider-inactive-background: #333; /* Inactive Slider: dark gray */
    --nav-image: url("/./assets/media/favicon/main-inverted.png"); /* Nav Logo */
-   --save-button: #a6d189; /* Save Button, Normally Green */
+   --save-button: #0f9;                /* Save Button: bright teal/green for contrast */
+
    /* Text Variables */
-   --text-primary: #000; /* Primary Text Color */
-   --text-dark: #aaa; /* Dark Text Color for Error Page, Scrollbar, and Particles */
-   --text-placeholder: #555; /* Placeholder Text Color */
+   --text-primary: #e0e8ff;            /* Primary Text: light bluish white */
+   --text-dark: #6a7ba2;               /* Dark Text (scrollbars/errors): muted gray-blue */
+   --text-placeholder: #778899;        /* Placeholder Text: slate gray */
+
    /* Other Variables */
 }
