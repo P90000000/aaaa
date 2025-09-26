@@ -94,9 +94,6 @@ app.use(express.static(path.join(__dirname, "static")));
 app.use("/ca", cors({ origin: true }));
 
 const routes = [
-  { path: "/b", file: "apps.html" },
-  { path: "/a", file: "games.html" },
-  { path: "/play.html", file: "games.html" },
   { path: "/c", file: "settings.html" },
   { path: "/d", file: "tabs.html" },
   { path: "/", file: "index.html" },
